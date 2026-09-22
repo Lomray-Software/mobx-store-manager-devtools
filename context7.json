@@ -1,0 +1,24 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "mobx-store-manager-devtools",
+  "description": "Browser extension for inspecting react-mobx-manager stores.",
+  "branch": "prod",
+  "folders": [],
+  "excludeFolders": [
+    "node_modules",
+    ".github",
+    "src",
+    "lib",
+    "dist",
+    "__tests__",
+    "__mocks__"
+  ],
+  "excludeFiles": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "CODE_OF_CONDUCT.md"
+  ],
+  "rules": [
+    "This repository is a Manifest V3 browser extension, not an application-importable MobX library."
+  ]
+}
